@@ -44,7 +44,7 @@ public class BallControl : MonoBehaviour{
         }
             return direction;
         } 
-    void OnTriggerEnter2D(Collision2D other) {
+    void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "VerticalLimit"){
             yDirectionToMove = xDirectionToMove * 2;
             _audioSource.Play();

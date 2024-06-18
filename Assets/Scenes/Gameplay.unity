@@ -678,7 +678,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Main
-  SceneManager: {fileID: 0}
 --- !u!4 &442904913
 Transform:
   m_ObjectHideFlags: 0
@@ -1431,7 +1430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Maim
-  SceneManager: {fileID: 0}
 --- !u!4 &962809056
 Transform:
   m_ObjectHideFlags: 0
